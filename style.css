@@ -1,8 +1,18 @@
+img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+
+
+
+
 body{
     background-color: bisque;
     color: #4D2E12;
 }
-h1,h2,th1,p{
+h1,h2,p,li{
     font-family: "Nunito";
     color:#8B4513;
 }
@@ -13,3 +23,9 @@ h3{
      font-size: larger;
      font-weight: 100;
 }
+
+
+
+
+
+  
