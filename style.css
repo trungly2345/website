@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+    color: #4D2E12;
+}
+h1,h2,th1,p{
+    font-family: "Nunito";
+    color:#8B4513;
+}
+
+h3{
+    color:brown;
+     font-family:"Nunito";
+     font-size: larger;
+     font-weight: 100;
+}
