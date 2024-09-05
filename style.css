@@ -6,13 +6,13 @@ img.rounded {
   }
 
 
-
-
 body{
     background-color: bisque;
     color: #4D2E12;
+    
 }
-h1,h2,p,li{
+h1,h2,p,li,ul{
+    
     font-family: "Nunito";
     color:#8B4513;
 }
@@ -25,7 +25,16 @@ h3{
 }
 
 
+.profile-container{
+    display : flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
+.rounded {
+    width: 200px; /* Adjust size as needed */
+    height: 200x; /* Ensure width and height are equal for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the container */
+}
 
-
-  
