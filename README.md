@@ -2,7 +2,7 @@
 
 
 // Introduction 
-Welcome to my portfolio website, this is where you can see and naviage through my website 
+Welcome to my portfolio website, this is where you can see and navigate the implemention of my website 
 
 
 
@@ -18,6 +18,7 @@ A couple things
 
 
 Details of the implementation
+
 
 1.) // explanation of my logic on how would I make user friendly UI
 
