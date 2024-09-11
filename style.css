@@ -1,36 +1,39 @@
+
+*{
+  box-sizing: border-box;
+}
+
 img.rounded {
     object-fit: cover;
-    border: 5px groove #97680a;
+    border: 10px double silver;
     border-radius: 50%;
-    height: 150px;
+    height: 200x;
     width: 150px;
   }
 
 
-body{
-    background-color: bisque;
-    color: #4D2E12;
-}
-h1,h2,p,li,ul{
-    
-    font-family: "Nunito";
-    color:#8B4513;
-    
 
+
+
+h1,h2,p{
+    font-family: "Nunito";
+    color:black;
+    
 }
 
 p{
-    border-top-style: solid;
+    border-top-style: groove
+    
 }
 
 h3{
     position: relative;
-    color:brown;
+    color:gray;
      font-family:"Nunito";
      font-size: larger;
      font-weight: 100;
      font-stretch: expanded;
-     border: 5px outset #8B4513;
+     border: 5px linear transparent #8B4513;
      border-radius: 10px;
      padding: 5px;
 }
@@ -50,3 +53,66 @@ h3{
 }
 
 
+body {
+  border: 5px solid transparent; /* Make the border itself transparent */
+  border-radius: 10px; /* Optional: for rounded corners */
+  background: linear-gradient(to right,bisque, gradient);
+  background-origin: border-box; /* Makes sure the gradient is on the entire area including the border */
+  background-clip: border-box; /* Clips the gradient to the border */
+  background-blend-mode: luminosity;
+  padding: 15px;
+}
+
+div {
+
+  border: 15px ; /* Make the border itself transparent */
+  border-right: 50px;
+  border-left: 50px;
+  border-top: 100x;
+  border-bottom: 1px;
+  
+ 
+  background-origin: border-box; /* Makes sure the gradient is on the entire area including the border */
+  background-clip: border-box; /* Clips the gradient to the border */
+  padding: 1em; /* */
+  margin: 0 -9em;
+ 
+}
+
+.content-panel {
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: ivory; /* Clean white background for the panel */
+  padding: 40px; /* Adequate padding to ensure good spacing */
+  border-radius: 20px; /* Soft corners for modern design */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a lifted effect */
+  text-align: center; /* Center text for uniformity */
+}
+
+.content-panel h2 {
+  color: #002d62; /* JPMorgan dark blue for headings */
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Garamond";
+  border-bottom: 6px solid #002d62; /* Blue line under the heading */
+  padding-bottom: 10px;
+  margin-bottom: 20px; /* Spacing between heading and con*/
+}
+
+
+.skills-list{
+  list-style: none;
+  padding: 0;
+}
+.skills-list ul li{
+  font-family: "Nunito";
+  padding: 10px;
+  border-top: 5px solid saddlebrown;
+  font-size: 35px;
+  font-weight: 50;
+  color: #333;
+  margin: 5 auto 20px auto;
+  display: inline-block;
+
+
+}
